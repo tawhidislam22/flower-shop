@@ -175,6 +175,36 @@ font-weight: 400;
     width: 220px;
 
 }
+.photo-container{
+    height: 380px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo-content{
+    height: 100px;
+    width: 500px;
+
+}
+.photo-content h3{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 30px;
+font-weight: 600;
+}
+.photo-image{
+    display: flex;
+    gap: 30px;
+}
+.photo-image img{
+    height:280px ;
+    width: 260px;
+}
 .deal-container{
     height: 320px;
     width: 90%;
